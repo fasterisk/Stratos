@@ -1,0 +1,9 @@
+tutorials
+
+http://fabiensanglard.net/bumpMapping/index.php
+http://fabiensanglard.net/shadowmapping/index.php
+
+http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-13-normal-mapping/
+http://www.spieleprogrammierung.net/2010/09/parallax-mapping-offset-mapping-virtual.html
+
+http://www.keithlantz.net/2011/10/tangent-space-normal-mapping-with-glsl/

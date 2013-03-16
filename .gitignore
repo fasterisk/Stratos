@@ -1,0 +1,18 @@
+# Build folders:
+bin
+intermediate
+
+# User-specific visual studio files
+*.user
+*.suo
+*.sdf
+*.opensdf
+
+# Libraries
+libraries
+
+# Resources
+resources
+
+# FMod
+fmod.log

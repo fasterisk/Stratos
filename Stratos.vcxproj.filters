@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{983374eb-ede5-4331-b9a0-8dcbcea76709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{f091e537-74f0-44e8-b3aa-265ff875cc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{19633be1-6133-458f-ac41-b7d217710950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{83a60baa-11b5-463e-88d9-b3e0610682bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{b2f89aea-91ab-427b-9060-35d7fc66e3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{77b74360-b04c-40a2-96c2-585477b82f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{39227cc4-e15c-4755-8234-db193d4bc16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{42536902-d4a9-43b4-82b7-aebd75d1f3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{351ba478-b877-4584-b3e7-2ff4a5125587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\PostProcessing">
+      <UniqueIdentifier>{05f4e730-705e-44bc-a97b-32c6e2c0bc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\PostProcessing">
+      <UniqueIdentifier>{7607c36d-87fa-4488-be5d-757e08a49283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader">
+      <UniqueIdentifier>{f5dac7e8-8649-484c-87f1-5ddc936838a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{84be57a3-53e2-42c7-bfc8-73c93279dd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader\Bloom">
+      <UniqueIdentifier>{dc37224d-499e-42f4-9f27-e6b406607f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\Bloom">
+      <UniqueIdentifier>{11e8d56e-355f-42a4-84f5-6d4779b015a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Bloom">
+      <UniqueIdentifier>{a342f9ce-2818-4982-9807-cbfd83e9ffab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\LensFlare">
+      <UniqueIdentifier>{8e79a69d-ed4b-47d4-a455-973726ef2e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader\LensFlare">
+      <UniqueIdentifier>{8b0ed474-5a4c-456f-9cf8-22d587373015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\LensFlare">
+      <UniqueIdentifier>{fbb8308f-2d2f-443b-a4df-1a8998fff932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\RTRS_Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_Skybox.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_TexturedModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_IModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_TextureManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_Logger.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_EnvironmentMapGenerator.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_ShadowMapGenerator.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_IShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_ColorShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_TextureShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_SimpleTextureShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_EnvironmentMappingShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_ObjectManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_ParallaxMappingShader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_PostProcessingEffects.cpp">
+      <Filter>Source Files\Effects\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_BrightPassShader.cpp">
+      <Filter>Source Files\Shader\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_GaussShader1.cpp">
+      <Filter>Source Files\Shader\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_GaussShader2.cpp">
+      <Filter>Source Files\Shader\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_BlendingShader.cpp">
+      <Filter>Source Files\Shader\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTRS_LensFlareShader.cpp">
+      <Filter>Source Files\Shader\LensFlare</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\RTRS_Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_IModel.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_Skybox.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_TexturedModel.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_TextureManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_Common_includes.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_Logger.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_EnvironmentMapGenerator.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_ShadowMapGenerator.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_IShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_ColorShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_TextureShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_SimpleTextureShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_EnvironmentMappingShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_ObjectManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_ParallaxMappingShader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_PostProcessingEffects.h">
+      <Filter>Header Files\Effects\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_BrightPassShader.h">
+      <Filter>Header Files\Shader\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_GaussShader1.h">
+      <Filter>Header Files\Shader\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_GaussShader2.h">
+      <Filter>Header Files\Shader\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_BlendingShader.h">
+      <Filter>Header Files\Shader\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTRS_LensFlareShader.h">
+      <Filter>Header Files\Shader\LensFlare</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\PhongTexturing.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\PhongTexturing.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\EnvironmentMapping.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\EnvironmentMapping.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\SimpleTexturing.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\SimpleTexturing.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\SimpleColoring.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\SimpleColoring.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\Parallax.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\Parallax.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\BrightPass.frag">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\BrightPass.vert">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\GaussPass2.frag">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\GaussPass1.frag">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\GaussPass.vert">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\Blending.vert">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\Blending.frag">
+      <Filter>Shader\Bloom</Filter>
+    </None>
+    <None Include="shader\LensFlare.vert">
+      <Filter>Shader\LensFlare</Filter>
+    </None>
+    <None Include="shader\LensFlare.frag">
+      <Filter>Shader\LensFlare</Filter>
+    </None>
+  </ItemGroup>
+</Project>
